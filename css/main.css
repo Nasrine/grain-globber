@@ -15,7 +15,9 @@ html {
 }
 
 .grains li {
-
+padding-bottom: 1em;
+clear:both;
+display: block;
 }
 
 .grains img {
