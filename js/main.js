@@ -1,13 +1,8 @@
-var $h1 = $('h1');
-
-$h1.html('Grain globber');
-$ul.addClass ('grains-list');
 var $ul = $('ul');
 
-$h1.html('Grain globber!');
 $ul.addClass('grains');
 
-dinos.forEach(function (grain){
+grains.forEach(function (grain){
   var $li = $('<li>');
   var $h2 = $('<h2>');
   var $img = $('<img>');
@@ -20,5 +15,4 @@ dinos.forEach(function (grain){
   $ul.append($li);
   $li.append($h2, $img, $p);
   $p.append($p);
-}
-  );
+});
